@@ -1,23 +1,28 @@
-#This project involves end-to-end testing of the Naaptol website using Selenium with TestNG and Cucumber. The primary goal is to test different sections of the website, focusing on Apparel and Accessories. The tests include adding products to the cart, interacting with checkboxes, filtering items, and verifying product details for rainwear, women's wear, and men's wear categories.
+#Naaptol End-to-End Testing Project
+Project Overview
+This project is focused on end-to-end testing of the Naaptol website using Selenium with TestNG and Cucumber. The primary goal is to automate and verify critical functionalities across the website’s Apparel and Accessories sections, ensuring a smooth user experience in various categories such as Rainwear, Women’s Wear, and Men’s Wear.
 
-Key Features Tested:
-Rainwear Section:
+Key Features Tested
+ 1.Rainwear Section:
 
-Add to cart functionality.
-Selection of different filters.
-Checkbox interaction for various product types.
-Women’s Wear:
+-Verify the Add to Cart functionality.
+-Apply and validate different product filters.
+-Handle and interact with checkboxes for product types.
 
-Product selection and detailed view.
-Add to cart and size selection.
-Filter by size, color, and price.
-Men’s Wear:
+2.Women’s Wear:
 
-End-to-end checkout for selected items.
-Product filtering and search bar.
-Add to cart and filtering options.
-Tools & Frameworks:
-Selenium: For web automation and interaction.
-TestNG: To structure and manage the test execution.
-Cucumber: For BDD-style test scripts.
-Java: As the programming language for script development.
+Validate product selection, product details, and Add to Cart.
+Test size selection and ensure it updates the product details.
+Apply filters (size, color, price) and verify their functionality.
+
+3.Men’s Wear:
+
+-Test end-to-end checkout for selected items.
+-Ensure product filtering and search bar functionality.
+-Verify Add to Cart feature and functionality of filtering options.
+
+Tools & Frameworks Used
+-Selenium: Web automation and browser interaction.
+-TestNG: Test execution and management framework.
+-Cucumber: BDD framework for writing test scripts in Gherkin syntax.
+-Java: Programming language for test development.
